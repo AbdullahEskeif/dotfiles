@@ -1,0 +1,33 @@
+account abdullah.m.eskef@gmail.com
+host smtp.gmail.com
+port 465
+from abdullah.m.eskef@gmail.com
+user abdullah.m.eskef@gmail.com
+passwordeval "pass abdullah.m.eskef@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/Aboud/.local/state/msmtp/msmtp.log
+tls_starttls off
+account aboudesk98@gmail.com
+host smtp.gmail.com
+port 465
+from aboudesk98@gmail.com
+user aboudesk98@gmail.com
+passwordeval "pass aboudesk98@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/Aboud/.local/state/msmtp/msmtp.log
+tls_starttls off
+account eskeif.Mabdullah@gmail.com
+host smtp.gmail.com
+port 465
+from eskeif.Mabdullah@gmail.com
+user eskeif.Mabdullah@gmail.com
+passwordeval "pass eskeif.Mabdullah@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/Aboud/.local/state/msmtp/msmtp.log
+tls_starttls off
